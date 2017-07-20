@@ -169,17 +169,6 @@ collaborative_notes: "https://public.etherpad-mozilla.org/p/2017-10-03-riverclub
   for more information.
 </p>
 
-<hr/>
-
-<!--
-  SCHEDULE
-
-  Show the workshop's schedule.  Edit the items and times in the table
-  to match your plans.  You may also want to change 'Day 1' and 'Day
-  2' to be actual dates or days of the week.
--->
-<h2 id="schedule">Schedule</h2>
-
 <!-- DO NOT EDIT SURVEY LINKS -->
 <p><em>Surveys</em></p>
 {% if page.carpentry == "swc" %} 
@@ -194,6 +183,16 @@ collaborative_notes: "https://public.etherpad-mozilla.org/p/2017-10-03-riverclub
 <p>Ask your instructor about pre- and post-workshop Survey details.</p>
 {% endif %}
 
+<hr/>
+
+<!--
+  SCHEDULE
+
+  Show the workshop's schedule.  Edit the items and times in the table
+  to match your plans.  You may also want to change 'Day 1' and 'Day
+  2' to be actual dates or days of the week.
+-->
+<h2 id="schedule">Schedule</h2>
 
 {% if page.carpentry == "swc" %}
   {% include sc/schedule.html %}
